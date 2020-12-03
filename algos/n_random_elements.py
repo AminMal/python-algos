@@ -1,7 +1,7 @@
 import random
 
 
-def random_elements(n: int, cap: int):
+def random_elements(n: int, cap: int) -> [int]:
 
     def iterate(numbers_to_go: int = n, acc: [int] = None):
         if acc is None:
